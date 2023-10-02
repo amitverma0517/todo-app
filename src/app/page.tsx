@@ -21,7 +21,7 @@ const Home: React.FC = () => {
   }
 
   return (
-    <> 
+    <React.Fragment>
     {/* using fragments tag here <> </>*/}
       <header className='bg-slate-950 p-4'>
         <h1 className='text-3xl'>Todos</h1>
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           }
         </ul>
       </main>
-    </>
+    </React.Fragment>
   )
 }
 
