@@ -11,6 +11,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noImplicitAny": false,  /*added to resolve the uuid issue*/
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
