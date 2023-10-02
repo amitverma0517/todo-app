@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         <ul className='mt-5'>
           {
             todos.map(todo => (
-              <li
+              <li key={todo.id}
                 onClick={() => markTodoDone(todo.id)} 
                 className={`text-3xl ml-4 cursor-pointer ${todo.done ? 'line-through' : 'no-underline' }`}
               
